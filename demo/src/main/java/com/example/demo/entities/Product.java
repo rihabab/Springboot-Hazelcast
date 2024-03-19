@@ -5,9 +5,6 @@ import lombok.AllArgsConstructor;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,7 +18,6 @@ public class Product {
 
     @Column(name = "product_name", nullable = false) // Match the column name in the database
     private String productName;
-
 
     @Column(name = "supplier_id") // Match the column name in the database
     private int supplierId;
